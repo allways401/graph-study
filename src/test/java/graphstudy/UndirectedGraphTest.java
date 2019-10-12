@@ -21,7 +21,7 @@ public class UndirectedGraphTest {
     public void before() {
         sourceGraph = TestUtils.createRandomGraph(100);
         targetGraphs = new ArrayList<>();
-        targetGraphs.add(createGraph(sourceGraph, new graphstudy.insford.UndirectedGraph()));
+        targetGraphs.add(createGraph(sourceGraph, new graphstudy.allways.UndirectedGraph()));
     }
 
     private UndirectedGraph createGraph(Graph sourceGraph, UndirectedGraph graph) {
